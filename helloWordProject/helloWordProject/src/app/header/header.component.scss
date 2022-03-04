@@ -1,0 +1,26 @@
+div {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-content: space-around;
+    border-bottom: solid 3px;
+    border-color: lightgray;
+}
+
+li{
+    display: inline-flex;
+    align-content: space-between;
+    padding-right: 50px;
+}
+
+.logo {
+    height: 40px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+
+a {
+    text-decoration-line: none;
+}
