@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+<<<<<<< HEAD
     "start": "ng serve",
+=======
+    "start": "ng serve -o",
+>>>>>>> 0689bb70ec5ac5249d61b3fe2314a545336e3ec6
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
