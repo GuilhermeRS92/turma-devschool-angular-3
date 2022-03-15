@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #6b44a3;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.collaboratorsList {
+    border: solid 1px gray;
+    border-radius: 10px;
+    background-color: rgb(246, 246, 255);
+    margin: 10px;
+    padding: 0 30px 0 30px;
+    float: left;
+}
+
+h3 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.box {
+    margin: 0px 50px 50px 80px;
+}
+
+.add {
+    float: left;
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    margin: 10px 0 20px 0;
+    color: #6b44a3;
+    background-color: #fdfdfd;
+}
+
+.formulario {
+    display: inline;
+}
+
+input{
+    width: 285px;
+    margin-right: 30px;
+    border: solid 1px #6b44a3;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6b44a3;
+    background-color: #eee4fc;
+    border: solid #eee4fc;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family:Arial, Helvetica, sans-serif;
+}
