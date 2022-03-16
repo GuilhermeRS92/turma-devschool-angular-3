@@ -1,0 +1,8 @@
+<div class="box">
+    <div class="collaboratorsList" *ngFor="let collaborators of collaborators; index as i">
+        <h3>Informações do Colaborador - Id. {{ collaborators.id }}</h3><hr>
+        <p><strong>Nome:</strong> {{ collaborators.name }} </p>
+        <p><strong>Salário:</strong> R${{ collaborators.salario }},00</p>
+        <p><strong>Cargo:</strong> {{ collaborators.cargo }}</p>
+    </div>
+    </div>

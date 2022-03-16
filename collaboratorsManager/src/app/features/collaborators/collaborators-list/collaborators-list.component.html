@@ -1,20 +1,11 @@
 <div>
     <h1>{{ title }}</h1>
-    <br>
-    <div class="box">
-    <div class="collaboratorsList" *ngFor="let collaborators of collaborators; index as i">
-        <h3>Informações do Colaborador - Id. {{ collaborators.id }}</h3><hr>
-        <p><strong>Nome:</strong> {{ collaborators.name }} </p>
-        <p><strong>Salário:</strong> R${{ collaborators.salario }},00</p>
-        <p><strong>Cargo:</strong> {{ collaborators.cargo }}</p>
-    </div>
-    </div>
+    <app-collaborators-card></app-collaborators-card>
     <div class="add">
         <h2>Adicionar Colaborador</h2>
         <p class="formulario"><strong>Nome: </strong></p> <input placeholder="Nome do Colaborador">
         <p class="formulario"><strong>        Salário: </strong></p> <input placeholder="Salário">
         <p class="formulario"><strong>        Cargo: </strong></p> <input placeholder="Cargo">
         <button>Adicionar</button><br>
-
     </div>
 </div>
