@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-collaborators-card',
@@ -57,6 +57,10 @@ export class CollaboratorsCardComponent implements OnInit {
       cargo: 'Dev Jr' 
     }
   ];
+
+  Remove() {
+    alert(`O colaborador foi removido com sucesso.`);
+  }
 
   constructor() { }
 

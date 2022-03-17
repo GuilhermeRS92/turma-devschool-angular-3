@@ -19,3 +19,16 @@ h3 {
 .box {
     margin: 0px 50px 50px 80px;
 }
+
+button {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6b44a3;
+    background-color: #eee4fc;
+    border: solid #eee4fc;
+    border-radius: 5px;
+    pointer-events: auto;
+}
