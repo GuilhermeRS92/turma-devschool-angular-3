@@ -1,0 +1,42 @@
+.form {
+    border: solid rgb(3, 139, 230) 1px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(234, 247, 255);
+    text-align: center;
+    color: rgb(66, 66, 66);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    width: 500px;
+}
+
+.wrap {
+    display: inline;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+button {
+    align-self: center;
+    color: white;
+    background-color: rgb(3, 139, 230);
+    border: transparent;
+    border-radius: 10px 10px 10px 10px;
+    padding: 7px;
+    font-weight: bold;
+}

@@ -5,14 +5,18 @@ import { SharedModule } from './shared/shared.module';
 import { ProductsModule } from './features/products/products.module';
 import { AppRoutingModule } from './app-routing.module';
 import { LoginModule } from './features/login/login.module';
-// import { LOCALE_ID } from '@angular/core';
-// import { registerLocaleData } from '@angular/common';
-// import localePt from '@angular/common/locales/pt';
-// registerLocaleData(localePt); 
+import { LOCALE_ID } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt';
+import { TodoHomeComponent } from './features/todo/todo-home/todo-home.component';
+import { TodoListComponent } from './features/todo/todo-list/todo-list.component';
+registerLocaleData(localePt); 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TodoHomeComponent,
+    TodoListComponent
   ],
   imports: [
     BrowserModule,
@@ -22,10 +26,10 @@ import { LoginModule } from './features/login/login.module';
     LoginModule
   ],
   providers: [
-    // {
-    //   provide: LOCALE_ID, 
-    //   useValue: "pt-BR"
-    // }
+    {
+       provide: LOCALE_ID, 
+       useValue: "pt-BR"
+    }
   ],
   bootstrap: [AppComponent]
 })

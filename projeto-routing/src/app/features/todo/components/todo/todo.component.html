@@ -1,0 +1,15 @@
+<div class="task-border">
+    <div class="task-box" [ngClass]="{ 'taskCompleted' : tasks?.completed, 'taskUncompleted' : !tasks?.completed }">
+        <p><strong><em>Id. </em></strong>{{ tasks?.id }}</p>
+        <div class="description">
+        <p><strong><em>Descrição:</em></strong> {{ tasks?.description }}</p>
+        </div>
+        <div class="inclusionDate">
+        <p><strong><em>Data de Inclusão:</em></strong> {{ tasks?.inclusionDate | date }}</p>
+        </div>
+        <div class="buttonsDiv">
+        <button (click)="completeTask()">Alterar Status</button>
+        <button class="redButton" (click)="removeTask()">Remover</button>
+    </div>
+    </div>
+</div>

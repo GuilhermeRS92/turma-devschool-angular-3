@@ -1,0 +1,12 @@
+<div class="search">
+    <div>
+        <input type="text" placeholder="Procurar tarefa" (keyup)="searchTask($event)">
+    </div>
+</div>
+<app-todo *ngFor="let item of filteredTasks" [tasks]="item"></app-todo>
+<div class="failSearch" *ngIf="filteredTasks?.length === 0">
+    <div>
+    <h1>NÃO EXISTE TAREFAS PARA ESSA BUSCA!</h1>
+    <img src="https://i.pinimg.com/originals/4c/bb/82/4cbb82f4845e4a3700117d56b3a55c51.png">
+    </div>
+</div>

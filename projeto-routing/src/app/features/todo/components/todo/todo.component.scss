@@ -1,0 +1,73 @@
+.task-box {
+    border: solid lightblue 1px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    margin: 10px;
+    color: rgb(50, 50, 50);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button {
+    align-self: center;
+    color: white;
+    background-color: rgb(3, 139, 230);
+    border: transparent;
+    border-radius: 10px 10px 10px 10px;
+    padding: 7px;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.task-border {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.search {
+    display:flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+input {
+    border-radius: 10px;
+    border: transparent;
+    margin: 10px;
+    padding: 5px 50px 5px 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttonsDiv {
+    display: flex;
+    align-self: center;
+}
+
+.redButton {
+    background-color: red;
+}
+
+.description {
+    width: 30%;
+    font-size: medium;
+}
+
+.inclusionDate {
+    font-size: small;
+}
+
+.taskCompleted {
+    background-color: rgb(50, 200, 50);
+}
+
+.taskUncompleted {
+    background-color: lightblue;
+}
